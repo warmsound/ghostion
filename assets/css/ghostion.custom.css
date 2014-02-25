@@ -1,0 +1,15 @@
+p {
+	font-size: 1.25rem;
+}
+
+h2.at_post_title {
+	font-weight: 700;
+}
+
+.post-template .at_post_title {
+font-weight: 700;
+}
+
+button.tiny, .button.tiny {
+	font-size: .75rem;
+}
