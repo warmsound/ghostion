@@ -7,9 +7,23 @@ h2.at_post_title {
 }
 
 .post-template .at_post_title {
-font-weight: 700;
+	font-weight: 700;
 }
 
 button.tiny, .button.tiny {
 	font-size: .75rem;
+}
+
+ul, ol, dl {
+	font-size: 1.25rem;
+}
+
+/* Convert images to block elements, and center align */
+img {
+	display: block;
+	max-width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
 }
