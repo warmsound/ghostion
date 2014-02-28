@@ -27,3 +27,12 @@ img {
 	margin-top: 1.25rem;
 	margin-bottom: 1.25rem;
 }
+
+.at_logo_img {
+	display: inline;
+	width: 1.5rem;
+	height: 1.5rem;
+	margin-top: 0.5rem;
+	margin-right: 0.5rem;
+	margin-bottom: 0.75rem;
+}
