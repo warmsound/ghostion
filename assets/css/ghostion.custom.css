@@ -1,6 +1,8 @@
 /* Keep font sizes up */
-p {
-	font-size: 1.25rem;
+@media only screen and (min-width: 40.063em) {
+	p {
+		font-size: 1.25rem;
+	}
 }
 
 h2.at_post_title {
@@ -41,10 +43,16 @@ img {
 /* Make code more like Casper theme */
 code {
 	font-weight: inherit;
-	font-size: 1rem; /* 16px */
+	font-size: 0.875rem; /* 14px/16px*/
 	border: 0.0625rem solid #ccc; /* 1px/16px */
 	border-radius: 0.1875rem; /* 3px/16px */
 	background: #eee;	
 	padding: 0.0625rem 0.1875rem; /* 1px/16px 3px/16px */
-	white-space: pre-wrap; /* Preserve whitespace, but wrap long lines of code
+	white-space: pre-wrap; /* Preserve whitespace, but wrap long lines of code */
+}
+
+@media only screen and (min-width: 40.063em) {
+	code {
+		font-size: 1rem; /* 16px */
+	}
 }
